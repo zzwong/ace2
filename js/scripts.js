@@ -25,6 +25,7 @@ $(function() {
     });
 }); 
 
+
 $(function() {
     $('a.contact-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -34,6 +35,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

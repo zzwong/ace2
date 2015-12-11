@@ -392,6 +392,16 @@ a:focus {
         padding: 100px 0;
     }
 
+.recruitment-section{
+    padding-top:100px;
+    height: 100%;
+}
+
+.contact-section{
+    padding-top:100px;
+    height: 100%;
+}
+
 
 }
 
