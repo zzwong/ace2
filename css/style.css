@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    color: #A6A6A6;
     background-color: #000;
 }
 
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #e5e5ff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: white;
 }
 
 .light {
@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .navbar-custom .nav li a {
@@ -288,7 +288,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
- 
+
 
 }
 
@@ -307,8 +307,27 @@ a:focus {
     width:100%;
 }
 
-.contact-me {
+/*********************
+ *   NAVBAR SECTION  *
+ *********************/
+.about-drop{
+    color:black;    
+}
 
+
+/*********************
+ *   ABOUT SECTION   *
+ *********************/
+
+.about-section li {
+    font-size: 32px;
+}
+
+.about-section h3 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 0px;
 }
 
 .about-section{
@@ -316,9 +335,10 @@ a:focus {
     height: 100%;    
 }
 
-.about-section p{
+/*.about-section p{
     color:white;
-}
+}*/
+
 
 @media(min-width:767px) {
     .content-section {
@@ -328,9 +348,43 @@ a:focus {
     .portfolio-section {
         padding: 100px 0;
     }
-
-
 }
+
+/*********************
+ *  SLIDER SECTION   *
+ *********************/
+#slider-section{
+  height:560px;
+}
+.slider-wrapper{
+  width:80%;
+  margin:100px auto;
+}
+
+
+/*********************
+ *  HISTORY SECTION  *
+ *********************/
+.history-section{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    /*color: #1d9b6c;*/
+    
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.history-section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20 0 35px;
+}
+
 
 .btn {
     border-radius: 0;
@@ -377,6 +431,70 @@ ul.banner-social-buttons {
         margin-bottom: 0;
     }
 }
+
+
+/*********************
+ *  networking SECTION*
+ *********************/
+#networking-section{
+    padding-top:100px;
+}
+#networking-wrapper{
+    margin:0 auto;
+    width: 80%;
+}
+
+
+/*********************
+ *    TEAM SECTION   *
+ *********************/
+#team-section {
+    height: 3050px;
+    padding-top:100px;
+}
+
+#team-wrapper {
+  margin: 0 auto;
+  height: 1500px;
+  width: 800px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-photo {
+  display: inline-block;
+  width:238px;
+  height: 369px;    
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.team-photo img {
+  display: block;
+  width: 238px;
+  height: 320px;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.team-photo h4 {
+  font-weight: 900;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.team-photo p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+
+
+/*********************
+ *  FOOTER SECTION   *
+ *********************/
 
 footer {
     padding: 50px 0;
