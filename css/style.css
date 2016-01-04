@@ -355,6 +355,7 @@ a:focus {
  *********************/
 #slider-section{
   height:560px;
+  vertical-align: middle;
 }
 .slider-wrapper{
   width:80%;
