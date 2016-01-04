@@ -443,10 +443,38 @@ ul.banner-social-buttons {
  *********************/
 #networking-section{
     padding-top:100px;
+    padding-bottom:100px;
 }
 #networking-wrapper{
     margin:0 auto;
     width: 80%;
+}
+
+#g-networking-wrapper{
+    margin:0 auto;
+    width: 80;
+}
+
+#graduate{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.btn-nw {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: white;
+    background: 0 0;
+
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
 }
 
 
@@ -495,7 +523,21 @@ ul.banner-social-buttons {
   font-size: 18px;
 }
 
-
+/*********************
+ RECRUITMENT SECTION
+ *********************/
+#recruitment{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+#recruitment-wrapper{
+    margin:0 auto;
+    width: 80%;
+}
+.recruitment-section li{
+    margin-left:13%;
+    font-size: 16px;
+}
 
 /*********************
  *  FOOTER SECTION   *
