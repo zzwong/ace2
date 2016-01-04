@@ -314,6 +314,10 @@ a:focus {
     color:black;    
 }
 
+#history-drop:hover{
+    color: rgba(0,0,0,.8);
+}
+
 
 /*********************
  *   ABOUT SECTION   *
