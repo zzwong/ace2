@@ -1,3 +1,20 @@
+    
+$('document').ready(function(){
+    /* Update Events Description section */
+    $(function(){
+        $('.event').click(function() {
+            var $id = this.id;
+            $("#event1-info").addClass('hidden');
+            $("#event2-info").addClass('hidden');
+            $("#event3-info").addClass('hidden');
+            $("#event4-info").addClass('hidden');
+            $("#" + $id + '-info').addClass('visible').removeClass('hidden');
+    
+        });
+    
+    });
+
+});
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.

@@ -57,6 +57,13 @@ a:focus {
     color: white;
 }
 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
 .light {
     font-weight: 400;
 }
@@ -397,7 +404,6 @@ a:focus {
     margin: 20 0 35px;
 }
 
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -471,6 +477,7 @@ ul.banner-social-buttons {
     position: relative;
     width: 70px;
     height: 70px;
+    margin-top: 50px;
     
     padding: 7px 16px;
     border: 2px solid #fff;
@@ -484,6 +491,17 @@ ul.banner-social-buttons {
     transition: background .3s ease-in-out;
 }
 
+.nw-img{
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 320px;
+}
+
+#study-pool{
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 200px;
+}
 
 /*********************
  *    TEAM SECTION   *
@@ -541,9 +559,92 @@ ul.banner-social-buttons {
     margin:0 auto;
     width: 80%;
 }
+
+
 .recruitment-section li{
-    margin-left:13%;
+    list-style-position: outside;
+    margin-left: 13%;
+    margin-right: 13%;
     font-size: 16px;
+}
+
+.recruitment-section h2{
+    margin-top: 50px;
+}
+
+.recruitment-section h4{
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 0px;
+}
+
+/****** CALENDAR OF EVENTS ******
+-------------------------------/
+-------------------------------/
+-------------------------------/
+*/
+#events-section {
+    margin-top: 100px;
+    height: 700px;
+}
+.events-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+#upcoming-events {
+    background-color: #ffffff;
+    height: 698px;
+    width: 315px;
+    border-radius: 4px;
+}
+#event-description {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 675px;
+    height: 698px;
+    border-radius: 4px;
+}
+#event-description div:nth-child(1) {
+    margin-top: 35px;
+}
+#event-description div:nth-child(2) {
+    margin-top: 15px;
+}
+
+#event-description h3 {
+    padding-top: 100px;
+}
+
+.event {
+    height: 150px;
+}
+.event hr {
+    margin: 0;
+}
+.event h3 {
+    margin-top: 12px;
+    color: #383838;
+}
+.event h4 {
+    margin: 5px;
+    color: #3d0000;
+}
+.event:hover {
+  background-color: #de6868;
+  cursor: pointer;
+}
+.event-content {
+  height: 100px;
+  margin-left: 10px;
+}
+.event-content p,
+.event-content h3 {
+  width: 550px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.event-content p {
+  font-size: 24px;
 }
 
 /*********************
@@ -551,7 +652,7 @@ ul.banner-social-buttons {
  *********************/
 
 footer {
-    padding: 50px 0;
+    padding: 20px 20px;
 }
 
 footer p {
