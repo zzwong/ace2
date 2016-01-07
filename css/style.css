@@ -284,30 +284,6 @@ a:focus {
     height: 100%;
 }
 
-.portfolio-section {
-    width: 100%;
-    height: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url("../img/bigsurbw.jpg") no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-
-
-}
-
-.portfolio-section h2{
-    color:black;
-    position: relative;
-}
-
-.project-section{
-    margin:0;
-}
-
 .contact-section{
     margin-top:45%;
     height:100%;
@@ -349,8 +325,8 @@ a:focus {
 }
 
 .about-section{
-    padding-top:100px;
-    height: 100%;    
+    padding-top:80px;
+    height: 700px;    
 }
 
 /*.about-section p{
@@ -363,9 +339,6 @@ a:focus {
         padding-top: 51px;
     }
 
-    .portfolio-section {
-        padding: 100px 0;
-    }
 }
 
 /*********************
@@ -507,7 +480,7 @@ ul.banner-social-buttons {
  *    TEAM SECTION   *
  *********************/
 #team-section {
-    height: 3050px;
+    height: 3150px;
     padding-top:100px;
 }
 
