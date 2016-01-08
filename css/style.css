@@ -469,14 +469,38 @@ ul.banner-social-buttons {
     border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
-    color: white;
+    color: #fff;
     background: 0 0;
-
+    /*top: 400px;*/
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
+.btn-nw:hover,
+.btn-nw:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-nw i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-nw:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
 .nw-img{
     margin-right: 8px;
     margin-left: 8px;
