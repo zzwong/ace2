@@ -11,6 +11,9 @@
 
     <title>UCSD ACE Executive Board</title>
 
+    <!-- ANIMATION WOW -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -197,7 +200,7 @@
     <!-- Recruitment Section -->
     <section id="recruitment" class="recruitment-section">
         <div id="recruitment-wrapper">
-            <h1 class="text-center"> How to join? </h1>
+            <h1 class="text-center wow tada animated"> How to join? </h1>
             <h4 class="text-center"> Come check this page during first few weeks of a new quarter for updated events calendar or follow us on <a href="https://www.facebook.com/AcademicConnectionofEngineers?fref=ts" target="_blank">Facebook</a> to learn about our recruitment information! </h4>
 
             <h2 class="text-center"> Who can join? </h2>
@@ -210,9 +213,32 @@
 </section>
 
 <!-- Footer -->
-<footer>
-    <div class="container text-center">
-        <p>Copyright &copy; Academic Connection of Engineers 2015-2016</p>
+   <footer>
+    <div class="footer-container">
+
+         <!-- <div class="col"> -->
+            <!-- <h5>Related Orgs</h5>
+            <a>Link 1</a>
+            <a>Link 2</a>
+            <a>Link 3</a>
+            <a>Link 4</a> -->
+        <!-- </div> -->
+
+        <div class="col right">
+            <p>UC San Diego</p>
+            <p>9500 Gilman Dr.</p>
+            <p>La Jolla, CA 92092</p>
+            <br />
+            <a href="mailto:ace@ucsd.edu" style="word-wrap: break-word;">ace@ucsd.edu</a>
+            <p>&copy; 2016 Academic Connection of Engineers</p>
+        </div>
+
+        <div class="footer-icons">
+            <!-- <div class="col"></div> -->
+            <div class="col left">
+                <img class="footer-ucsd-logo" src="img/ucsd-logo.png" alt="UCSD Logo" />
+            </div>
+        </div>
     </div>
 </footer>
 
@@ -237,6 +263,10 @@
             });
         </script>
 
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 </body>
 

@@ -9,8 +9,9 @@ body {
     height: 100%;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: Lora;
-    color: #A6A6A6;
-    background-color: #000;
+    color: #000;
+    /*background-color: #F6F6F6;*/
+    background-color: #FFFFFF;
 }
 
 html {
@@ -47,7 +48,8 @@ p {
 }
 
 a {
-    color: #e5e5ff;
+    /*color: #e5e5ff;*/
+    color: #000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -56,7 +58,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 
 .left {
@@ -70,11 +72,12 @@ a:focus {
     font-weight: 400;
 }
 
-.navbar-custom {    
+.navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: Lora;
     background-color: #000;
 }
 
@@ -89,7 +92,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    /*color: #fff;*/
+    color: #000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -98,7 +101,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    /*color: #fff;*/
+    color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -136,7 +139,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background: #000;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -197,7 +200,7 @@ a:focus {
     position: relative;
     width: 70px;
     height: 70px;
-    
+
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
@@ -235,7 +238,17 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+.circle-2 {
+    border: 2px solid #000;
+    color: #000;
+}
+.circle-2:hover,.circle-2:focus{
+    outline:0;
+    color: #000;
+    background: rgba(0,0,0,.1);
+}
+
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -252,7 +265,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -296,7 +309,7 @@ a:focus {
  *   NAVBAR SECTION  *
  *********************/
 .about-drop{
-    color:black;    
+    color:black;
 }
 
 #history-drop:hover{
@@ -329,12 +342,12 @@ a:focus {
 
 .about-section{
     padding-top:80px;
-    height: 700px;    
+    height: 700px;
 }
 .img-caption{
-    position: absolute; 
-    bottom: 15px; 
-    left: 30px; 
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
     width: 500px;
     height: 50px;
     font-size: 24px;
@@ -371,12 +384,12 @@ a:focus {
  *  HISTORY SECTION  *
  *********************/
 .history-section{
-    width: 100%;
-    height: 100%;
+    /*width: 100%;
+    height: 100%;*/
     padding: 50px 0;
     /*color: #1d9b6c;*/
-    
-    background-color: #000;
+
+    /*background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -464,7 +477,7 @@ ul.banner-social-buttons {
     width: 70px;
     height: 70px;
     margin-top: 50px;
-    
+
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
@@ -517,8 +530,8 @@ ul.banner-social-buttons {
  *    TEAM SECTION   *
  *********************/
 #team-section {
-    height: 3150px;
-    padding-top:100px;
+    height: 2800px;
+    padding-top:130px;
 }
 
 #team-wrapper {
@@ -532,7 +545,7 @@ ul.banner-social-buttons {
 .team-photo {
   display: inline-block;
   width:238px;
-  height: 369px;    
+  height: 369px;
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
@@ -602,14 +615,14 @@ ul.banner-social-buttons {
     width: 1000px;
 }
 #upcoming-events {
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     height: 698px;
     width: 315px;
     border-radius: 4px;
 }
 #event-description {
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     width: 675px;
     height: 698px;
     border-radius: 4px;
@@ -663,11 +676,23 @@ ul.banner-social-buttons {
  *********************/
 
 footer {
-    padding: 20px 20px;
+    padding: 120px 100px;
+    background-color: #F6F6F6;
+    height: 28%;
+    padding-top:15px;    
 }
 
 footer p {
     margin: 0;
+    font-size: 16px;
+}
+
+footer .footer-icons {
+  margin-top: 40px;
+}
+footer .footer-icons img {
+  max-width: 100%;
+  max-height: 120px;
 }
 
 ::-moz-selection {
@@ -693,3 +718,65 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+footer .col.right {
+  float: right; }
+
+.footer-ucsd-logo {
+  width: 69%;
+  height: 50%;
+  margin-top:50px;
+}
+@media only screen and (max-width: 47.9375em) {
+    footer .col {
+        width: 45%; }
+    .footer-ucsd-logo{
+        margin-top: 20px;
+    }
+}
+/*
+footer {
+  padding: 120px 100%;
+  background-color: #f5f5f9; 
+}
+footer .footer-container {
+  margin: 0 auto;
+  max-width: 700px; 
+}
+footer .col {
+  display: inline-block;
+  width: 32%;
+  color: white;
+  vertical-align: top; 
+}
+@media only screen and (max-width: 47.9375em) {
+  footer .col {
+    width: 45%; }
+}
+footer .col.right {
+    float: right; }
+footer .col h5 {
+  margin-bottom: 10px;
+  color: #edab18;
+  font-weight: 400;
+  font-size: 14px; }
+footer .col a, footer .col p {
+  display: block;
+  color: #414141;
+  font-size: 13px; }
+
+footer .col a.subscribe-btn, footer .col p.subscribe-btn {
+    cursor: pointer; }
+footer .col a:hover {
+  color: #025878; }
+footer .footer-icons {
+  margin-top: 40px; }
+footer .footer-icons img {
+    max-width: 100%;
+    max-height: 120px; }
+
+hr.footer.blue {
+  border: 1px solid #04a2dc; }
+
+hr.footer.yellow {
+  border: 1px solid #f8dfa6; }
+*/

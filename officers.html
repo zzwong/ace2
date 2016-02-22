@@ -11,6 +11,9 @@
 
     <title>UCSD ACE Executive Board</title>
 
+        <!-- ANIMATION WOW -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -86,7 +89,7 @@
 <section id="team-section" class="text-center">
 
     <div id="team-wrapper">
-        <h2>Our Officers</h2>
+        <h2 class="wow jello animated">Our Officers</h2>
         <div class="right"> 
             <img src="img/exec1516cropped.jpg" class="img-responsive center-block" style="width:867.5px; height: 388.5px; ">
         </div> 
@@ -120,7 +123,7 @@
             <img src="img/hanna2.jpg">
             <h4>Hanna Salis</h4>
             <p>Networking Chair and Advisor</p>
-            <p style="color:black">.</p>
+            <p style="color:white">.</p>
         </div>
 
         <div class="team-photo">
@@ -133,7 +136,7 @@
             <img src="img/sydney2.jpg">
             <h4>Sydney Riegert</h4>
             <p>Financial Chair</p>
-            <p style="color:black">.</p>
+            <p style="color:white">.</p>
         </div>
         <br>
 
@@ -171,23 +174,40 @@
             <img src="img/josh.jpg">
             <h4>Josh Gudgel</h4>
             <p>Web Developer</p>
-        </div>
-
-        <div class="team-photo">
-            <img src="img/darryl2.jpg">
-            <h4>Darryl Elvina</h4>
-            <p>Advisor</p>
-        </div>    
+        </div>  
     </div>
 
 </section> 
 
 <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Academic Connection of Engineers 2015-2016</p>
+       <footer>
+    <div class="footer-container">
+
+         <!-- <div class="col"> -->
+            <!-- <h5>Related Orgs</h5>
+            <a>Link 1</a>
+            <a>Link 2</a>
+            <a>Link 3</a>
+            <a>Link 4</a> -->
+        <!-- </div> -->
+
+        <div class="col right">
+            <p>UC San Diego</p>
+            <p>9500 Gilman Dr.</p>
+            <p>La Jolla, CA 92092</p>
+            <br />
+            <a href="mailto:ace@ucsd.edu" style="word-wrap: break-word;">ace@ucsd.edu</a>
+            <p>&copy; 2016 Academic Connection of Engineers</p>
         </div>
-    </footer>
+
+        <div class="footer-icons">
+            <!-- <div class="col"></div> -->
+            <div class="col left">
+                <img class="footer-ucsd-logo" src="img/ucsd-logo.png" alt="UCSD Logo" />
+            </div>
+        </div>
+    </div>
+</footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -209,6 +229,11 @@
                 Grid.init();
             });
         </script>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 
 </body>
